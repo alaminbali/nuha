@@ -451,10 +451,10 @@
   
   .section-wrapper .popup-close {
     position: fixed;
-    right: 4vw;
-    top: 35px;
+    right: 60px;
+    top: 60px;
     z-index: 99;
-  }
+}
   
   .section-wrapper .popup-close .close-btn {
     -ms-flex-direction: column;
@@ -568,13 +568,13 @@
   .section-wrapper .lightbox-content .section-heading.page-heading .section-title-bg{
     font-size: 110px;
     left: 0;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
     line-height: 0.5;
     position: absolute;
     right: 0;
     top: 29%;
     text-transform: uppercase;
-    font-weight: 800;
+    font-weight: 700;
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -1117,7 +1117,7 @@
   }
   .info-section .info-content .content-title {
     font-size: 48px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 1.5;
     margin-bottom: 16px;
     max-width: 650px;
@@ -1333,7 +1333,7 @@
     font-weight: 500;
     letter-spacing: -0.5px;
     margin-bottom: 14px;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 24px;
     line-height: 35px;
   }
@@ -1458,8 +1458,8 @@
   
   .pricing-section .single-plan .plan-type {
     color: #f0f0f0;
-    font-size: 26px;
-    font-weight: 700;
+    font-size: 36px;
+    font-weight: 600;
     margin-bottom: 14px;
   }
   
@@ -1480,7 +1480,10 @@
   
   .pricing-section .single-plan .plan-list li {
     color: inherit;
-    padding: 8px;
+    padding: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 46px;
   }
   
   @media (max-width: 991.98px) {
@@ -1552,7 +1555,7 @@
   
   
   .resume-section .professional-item .item-title {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 24px;
     line-height: 35px;
   }
@@ -1794,13 +1797,13 @@
   .portfolio-section .portfolio-grid .portfolio-wrapper .item-content .content-title {
     color: #fff;
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 1.8;
   }
   
   .portfolio-section .portfolio-grid .portfolio-wrapper .item-content .content-more {
     display: inline-block;
-    font-weight: 600;
+    font-weight: 300;
   }
   
   .portfolio-section .portfolio-grid .portfolio-wrapper:hover:before {
@@ -1885,7 +1888,7 @@
     letter-spacing: 0.1px;
     margin-bottom: 6px;
     margin-top: 0;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 24px;
     line-height: 34px;
   }
@@ -2036,15 +2039,26 @@
   
   .contact-section .contact-info .list-info .info-details .info-type {
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 0;
     text-transform: uppercase;
     padding-bottom: 15px;
+    position: relative;
+    &::after{
+      position: absolute;
+      content: '';
+      left: 0;
+      bottom: 8px;
+      height: 1px;
+      width: 30px;
+      background: #dc3545;
+    }
   }
   
   .contact-section .contact-info .list-info .info-details .info-value a {
     color: #fcfcfc !important;
     text-decoration: none;
+    font-weight: 500;
     &:hover{
       color: #dc3545 !important;
     }
