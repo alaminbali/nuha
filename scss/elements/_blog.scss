@@ -1,0 +1,23 @@
+// blog section style start
+
+.card-body{
+    &.blog{
+        .name-desig-area{
+            margin-bottom: 5px;
+            .name{
+                margin-right: 37px;
+                position: relative;
+                font-size: 18px;
+                &::after{
+                    position: absolute;
+                    content: "";
+                    top: 54%;
+                    right: -33px;
+                    width: 21px;
+                    height: 1px;
+                    background: #868686;
+                }
+            }
+        }
+    }
+}

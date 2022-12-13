@@ -1,0 +1,93 @@
+// sontact style ehar
+
+
+.contact-section .contact-info .list-info li {
+    span{
+        &.info-value{
+            color: #eeeeee !important;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 24px;
+        }
+    }
+}
+
+.contact-form{
+    padding: 60px;
+    background: #191919;
+    box-shadow: 0px 4px 33px #121212;
+    margin-top: 60px;
+    .content-title{
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 52px;
+        margin-top: 0;
+    }
+    input{
+        background: rgba(255, 255, 255, 0.01);
+        border: 1px solid rgba(255, 255, 255, 0.05) !important;
+        height: 60px !important;
+        padding: 0 15px  !important;
+        &:focus{
+            border: 1px solid #dc3545 !important;
+        }
+    }
+    textarea{
+        background: rgba(255, 255, 255, 0.01);
+        border: 1px solid rgba(255, 255, 255, 0.05) !important;
+        padding: 15px 15px  !important;
+        &:focus{
+            border: 1px solid #dc3545 !important;
+        }
+    }
+    .rts-btn{
+        border: none !important;
+    }
+}
+
+
+// contact modal style hear
+
+
+.contact-modal{
+    label{
+        color: #d3d3d3;
+    }
+    .name-area{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &>div{
+            width: 48%;
+        }
+    }
+}
+
+.modal{
+    &.success-message{
+        height: max-content;
+        background: rgb(15, 15, 15);
+        .modal-dialog {
+            padding: 10px 30px;
+            background: green;
+            color: #fff;
+            .modal-header{
+                background: green;
+            }
+        }
+    }
+    .modal-header{
+        border: none;
+    }
+}
+
+
+.modal-backdrop.show {
+    opacity: 1;
+    background-color: #0f0f0f;
+}
+
+
+.form-control {
+    border: 1px solid #4b4b4b70 !important;
+}

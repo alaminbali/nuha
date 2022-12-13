@@ -1,0 +1,74 @@
+// blog details style hear
+
+
+@media (min-width: 576px){
+    .modal-dialog {
+        max-width: 900px;
+        margin: 1.75rem auto;
+        padding: 25px;
+        border-radius: 5px;
+        background: #191919;
+        .modal-content{
+          border: none;
+          background: #191919;
+        }
+    }
+}
+
+.modal-content{
+    border: none;
+    background: #191919;
+  }
+
+
+
+.blog-single-post-listing{
+    .thumbnail{
+        margin-bottom: 30px;
+    }
+    .blog-listing-content{
+        .title{
+            color: #fff;
+        }
+    }
+    .rts-quote-area{
+        padding: 25px;
+        background: #100d0d;
+        border-radius: 15px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+}
+
+.modal {
+    background: rgb(15, 15, 15);
+}
+
+
+.btn-close {
+    box-sizing: content-box;
+    width: 1em;
+    height: 1em;
+    color: #fff;
+    border: 0;
+    opacity: 1;
+    position: absolute;
+    right: -59%;
+    top: -28px;
+    background-color: #fff;
+    padding: 9px;
+    border-radius: 50%;
+}
+
+.modal-footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0.75rem;
+    border: none;
+    button{
+        border: none;
+    }
+}

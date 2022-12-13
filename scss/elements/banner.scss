@@ -1,0 +1,211 @@
+
+
+// banner sstyle hear
+
+
+.home-area {
+    background-color: #171321;
+    background-position: center center;
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+    overflow: scroll;
+    background-image: url(../img/bg/bg-01.jpg);
+    z-index: 1;
+}
+@media (min-width: 1199px) {
+    .home-area{
+        overflow: hidden;
+    }
+}
+
+
+// .home-area{
+//     .home-content{
+//         img{
+//             position: absolute;
+//             width: 35%;
+//             left: 13%;
+//             top: 150px;
+//             z-index: -1;
+//         }
+//     }
+// }
+
+@media (max-width: 1199px) {
+    .home-area{
+        .home-content{
+            img{
+                position: relative;
+                width: 100%;
+                left: 0;
+                top: 120px;
+                z-index: -1;
+                padding: 20px 25px 0 25px;
+                background: #1A1A1A;
+            }
+        }
+    }
+}
+
+.upper-case{
+    text-transform: uppercase;
+}
+
+.upper-case.banner{
+    text-transform: uppercase;
+    font-size: 62px;
+}
+
+@media (max-width: 450px) {
+    .upper-case.banner{
+        text-transform: uppercase;
+        font-size: 36px;
+    }
+    .home-area .home-name .color-name {
+        font-size: 27px;
+        margin-bottom: -14px;
+    }
+    .home-content-right {
+        margin-top: 0;
+    }
+}
+@media (max-width: 776px) {
+    .upper-case.banner{
+        font-size: 46px;
+    }
+}
+@media (max-width: 556px) {
+    .upper-case.banner{
+        font-size: 26px;
+    }
+}
+
+
+.banner-one{
+    p{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: rgba(255, 255, 255, 0.6);
+        margin-bottom: 33px;
+    }
+}
+@media (max-width: 350px) {
+    .banner-one p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+.home-content-right{
+    margin-top: 10px;
+}
+
+.mt-120{
+    margin-top: 200px;
+}
+
+
+.social-share-area{
+    display: block;
+    .list-unstyled {
+        padding-left: 0px;
+        list-style: none;
+        position: fixed;
+        right: 30px;
+        bottom: 30px;
+        li{
+            margin-bottom: 12px;
+            a{
+                i{
+                    height: 30px;
+                    width: 30px;
+                    padding: 10px;
+                    background:#DC3545;
+                    border-radius: 50%;
+                    font-size: 12px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: #fff;
+                    transition: .3s;
+                }
+                &:hover{
+                    i{
+                        background: #1A1A1A;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.home-area{
+    position: relative !important;
+}
+
+.image-content{
+    .round-shape-wrapper{
+        position: relative;
+        top: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        left: -30%;
+        img{
+            position: absolute;
+            width: 100%;
+            margin-top: 55%;
+            margin-left: 10%;
+            &.bg-1{
+                width: 830px;
+                height: 830px;
+                z-index: 2;
+            }
+            &.bg-2{
+                width: 630px;
+                height: 630px;
+                z-index: 2;
+                animation: rotateIt2 30s linear infinite;
+            }
+            &.bg-3{
+                z-index: 5;
+                width: 574px;
+                height: 574px;
+            }
+        }
+    }
+}
+@keyframes rotateIt2 {
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+.rts-easy-contact-area{
+    a{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        text-transform: uppercase;
+        color: #fff;
+        text-decoration: none;
+        &.mail{
+            margin-left: 40px;
+            position: relative;
+            &::after{
+                position: absolute;
+                content: "";
+                height: 30px;
+                width: 20px;
+                left: -27px;
+                top: -11%;
+                background-image: url(../img/banner/nav-arrow.png);
+                background-repeat: no-repeat;
+            }
+        }
+    }
+}
+
+
+
+

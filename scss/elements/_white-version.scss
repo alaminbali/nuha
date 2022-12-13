@@ -1,0 +1,169 @@
+
+// white versions style hear
+
+.white-version{
+
+    // overlay color
+    #overlay-effect {
+        background: #ffffff;
+    }
+    
+    // background-image area
+    #resume{
+        &::after{
+          background-image: url(../img/bg/bg-01-white.jpg);
+        }
+      }
+      #portfolio{
+        &::after{
+          background-image: url(../img/bg/bg-01-white.jpg);
+        }
+      }
+      #blog{
+        &::after{
+          background-image: url(../img/bg/bg-01-white.jpg);
+        }
+      }
+      #contact{
+        &::after{
+          background-image: url(../img/bg/bg-01-white.jpg);
+        }
+      }
+      #about{
+        &::after{
+          background-image: url(../img/bg/bg-01-white.jpg);
+        }
+      }
+      #services::after {
+        background-image: url(../img/bg/bg-01-white.jpg);
+    }
+    .home-area {
+        background-image: url(../img/bg/bg-01-white.jpg);
+    }
+
+    // after color area
+    .info-section .info-content .content-info::after {
+        background: #d8d8d8;
+    }
+
+    // soft paragraph
+    .info-section .info-content .content-info .single-info > p,
+    .services-section .single-service .service-description,
+    .resume-section .professional-item .item-details{
+        color: #353535;
+    }
+
+    // bold color paragraph
+    body,
+    .banner-one p,
+    .info-section .info-content .content-description p:last-child,
+    .info-section .info-content .content-info .single-info > span,
+    .portfolio-section .filter-control > li,
+    .resume-section .professional-item .item-description,
+    .skills-section .single-skill .skill-info{
+        color: #1A1A1A;
+    }
+
+    // color black
+    .navbar .navbar-nav .nav-link,
+    #navbarSupportedContent li:last-child a,
+    #navbarSupportedContent li:last-child:after,
+    .home-area .home-name,
+    .info-section .info-content .content-title,
+    .section-wrapper .lightbox-content .section-heading.page-heading > .section-title,
+    .services-section .single-service .service-title,
+    .pricing-section .single-plan .plan-type,
+    .pricing-section .single-plan .plan-list li,
+    .blog-section .single-post .post-content .content-title,
+    .card-body.post-content a,
+    .contact-section .contact-info .list-info .info-details .info-type,
+    .contact-section .contact-info .list-info li span.info-value,
+    .contact-section .contact-info .list-info .info-details .info-value a,
+    .resume-section .col-title,
+    .resume-section .professional-item .item-title,
+    .skills-section .single-skill .skill-info .skill-name,
+    .contact-form .content-title{
+        color: #1A1A1A !important;
+    }
+
+    .rts-btn {
+        box-shadow: rgb(249 59 59 / 24%) 0px 4px 33px;
+    }
+
+    .blog-section .single-post .post-content {
+        box-shadow: 0px 4px 33px #1212121a;
+    }
+
+    // white background color
+    .thumbnail-about,
+    .services-section .single-service,
+    .pricing-section .single-plan,
+    .blog-section .single-post .post-content,
+    .resume-section .col-title,
+    .resume-section .professional-item .item-arrow,
+    .skills-wrapper-progres,
+    .contact-form{
+        background: #fff;
+    }
+
+    // back ground title color
+    .section-wrapper .lightbox-content .section-heading.page-heading .section-title-bg{
+        color: #f2f2f2;
+    }
+
+    // random css for white version
+    .services-section .single-service,
+    .pricing-section .single-plan,
+    .resume-section .col-title,
+    .resume-section .professional-item .item-arrow,
+    .skills-wrapper-progres,
+    .contact-section .contact-info .list-info li,
+    .contact-form{
+        box-shadow: 0px 4px 33px #E9E9E9;
+    }
+    .services-section .single-service::after,
+    .single-plan::before,
+    .single-plan::after{
+        opacity: .05;
+    }
+
+    // box shadow red for card
+    .white-version .rts-btn {
+        box-shadow: rgb(249 59 59 / 30%) 0px 4px 33px;
+    }
+
+    .contact-section .contact-info .list-info li{
+        background: #fff;
+    }
+
+    // preloader style hear
+    .preloader {
+        background-color: #ffffff;
+    }
+    .preloader .preloader-block .preloader-icon .loading-dot {
+        background-color: #d80101;
+    }
+
+    .resume-section .professional-item .item-arrow{
+        i{
+            color: #d80101;
+        }
+    }
+
+    .skills-section .single-skill .skill-progress {
+        background: rgb(0 0 0 / 15%);
+    }
+
+    // background color after changes
+    .resume-section .professional-item .item-arrow i::after {
+        background: rgb(220 220 220);
+    }
+
+    .section-wrapper .popup-close .close-btn:before,
+    .section-wrapper .popup-close .close-btn::after{
+        background-color: #000;
+    }
+    .contact-section .contact-form .form-group .form-control{
+        border: 1px solid #e7e7e7 !important;
+    }
+}
