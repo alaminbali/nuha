@@ -455,9 +455,7 @@
 
     });
 
-
   // nice scroll
-
 
   });
   $(window).on('load', function() {
@@ -472,6 +470,8 @@
 
   
 }(jQuery));
+
+
 
 
 
