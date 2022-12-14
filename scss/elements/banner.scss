@@ -15,6 +15,9 @@
 @media (min-width: 1199px) {
     .home-area{
         overflow: hidden;
+        @media screen and (max-width:1199px) {
+            overflow-y: visible;       
+        }
     }
 }
 
@@ -152,6 +155,24 @@
         align-items: center;
         justify-content: center;
         left: -30%;
+        z-index: -1;
+        @media screen and (max-width:1560px) {
+            width: 90%;
+            top: 16%;
+            position: absolute;
+            left: -27%;
+        }
+        @media screen and (max-width:1299px) {
+            width: 90%;
+            top: 15%;
+            position: absolute;
+            left: -26%;        
+        }
+        @media screen and (max-width:1199px) {
+            top: 15%;
+            position: absolute;
+            left: 0%;        
+        }
         img{
             position: absolute;
             width: 100%;
@@ -161,17 +182,77 @@
                 width: 830px;
                 height: 830px;
                 z-index: 2;
+                @media screen and (max-width:1560px) {
+                    width: 730px;
+                    height: 730px;
+                }
+                @media screen and (max-width:1299px) {
+                    width: 650px;
+                    height: 650px;
+                }
+                @media screen and (max-width:767px) {
+                    width: 550px;
+                    height: 550px;
+                }
+                @media screen and (max-width:599px) {
+                    width: 500px;
+                    height: 500px;
+                }
+                @media screen and (max-width:555px) {
+                    width: 300px;
+                    height: 300px;
+                }
             }
             &.bg-2{
                 width: 630px;
                 height: 630px;
                 z-index: 2;
                 animation: rotateIt2 30s linear infinite;
+                @media screen and (max-width:1560px) {
+                    width: 550px;
+                    height: 550px;
+                }
+                @media screen and (max-width:1299px) {
+                    width: 490px;
+                    height: 490px;
+                }
+                @media screen and (max-width:767px) {
+                    width: 430px;
+                    height: 430px;
+                }
+                @media screen and (max-width:599px) {
+                    width: 400px;
+                    height: 400px;
+                }
+                @media screen and (max-width:555px) {
+                    width: 250px;
+                    height: 250px;
+                }
             }
             &.bg-3{
                 z-index: 5;
                 width: 574px;
                 height: 574px;
+                @media screen and (max-width:1560px) {
+                    width: 490px;
+                    height: 490px;
+                }
+                @media screen and (max-width:1299px) {
+                    width: 450px;
+                    height: 450px;
+                }
+                @media screen and (max-width:767px) {
+                    width: 390px;
+                    height: 390px;
+                }
+                @media screen and (max-width:599px) {
+                    width: 340px;
+                    height: 340px;
+                }
+                @media screen and (max-width:555px) {
+                    width: 220px;
+                    height: 220px;
+                }
             }
         }
     }

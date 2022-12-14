@@ -29,6 +29,9 @@
     padding: 60px;
     background: #191919;
     box-shadow: 0px 4px 33px #121212;
+    @media screen and (max-width: 960px) {
+        padding: 20px 5px;
+    }
 }
 
 .eye-icon{
@@ -42,8 +45,8 @@
 .portfolio-wrapper{
     &:hover{
         .eye-icon{
-            top: 30px;
-            right: 30px;
+            top: 40px;
+            right: 40px;
         }
     }
 }

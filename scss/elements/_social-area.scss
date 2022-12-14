@@ -1,10 +1,25 @@
 // social area style hear
 
+.padding-controler-sm-device{
+    @media screen and (max-width: 960px) {
+        padding-top: 39px; 
+    }
+}
+
 .social-banner-wrapper{
     display: flex;
     align-items: center;
+    @media screen and (max-width: 355px) {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        align-items: flex-start;    
+    }
     .text-area{
         margin-right: 20px;
+        @media screen and (max-width: 355px) {
+            margin-bottom: 10px;
+        }
         p{
             margin-bottom: 0;
             text-transform: uppercase;
@@ -47,6 +62,42 @@
 
 .home-content-right {
     margin-left: 48% !important;
+    @media screen and (max-width:1199px) {
+        margin-left: 0 !important;
+        margin-top: 79%;      
+    }
+    @media screen and (max-width:992px) {
+        margin-left: 0 !important;
+        margin-top: 97%;      
+    }
+    @media screen and (max-width:768px) {
+        margin-left: 0 !important;
+        margin-top: 105%;   
+    }
+    @media screen and (max-width:555px) {
+        margin-left: 0 !important;
+        margin-top: 78%;   
+    }
+    @media screen and (max-width:455px) {
+        margin-left: 0 !important;
+        margin-top: 85%;
+    }
+    @media screen and (max-width:420px) {
+        margin-left: 0 !important;
+        margin-top: 93%;
+    }
+    @media screen and (max-width:380px) {
+        margin-left: 0 !important;
+        margin-top: 96%;
+    }
+    @media screen and (max-width:360px) {
+        margin-left: 0 !important;
+        margin-top: 105%;
+    }
+    @media screen and (max-width:340px) {
+        margin-left: 0 !important;
+        margin-top: 109%;
+    }
 }
 
 

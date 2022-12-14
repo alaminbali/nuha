@@ -407,7 +407,7 @@
 
     // splitext.js
 
-      $(document).ready(function () {
+      $(window).on('load').ready(function () {
         gsap.registerPlugin(SplitText);
 
         var tl = gsap.timeline(),
@@ -431,7 +431,7 @@
         
     });
 
-    $(document).ready(function () {
+    $(window).on('load').ready(function () {
       let splitTextLines = gsap.utils.toArray(".text-anim p, .text-anim");
 
       splitTextLines.forEach(splitTextLine => {
@@ -453,7 +453,11 @@
       tl.from(itemSplitted.lines, { duration: 1, delay: 0.3, opacity: 0, rotationX: -80, force3D: true, transformOrigin: "top center -50", stagger: 0.1 });
       });
 
-  });
+    });
+
+
+  // nice scroll
+
 
   });
   $(window).on('load', function() {
@@ -463,4 +467,16 @@
     $('.preloader').delay(500).fadeOut('slow');
 
   });
+
+
+
+  
 }(jQuery));
+
+
+
+
+
+
+
+
